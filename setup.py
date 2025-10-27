@@ -4,7 +4,7 @@ package_name = 'servo_helpers'
 
 setup(
     name=package_name,
-    version='0.0.0',
+    version='0.0.1',
     packages=find_packages(exclude=['test']),
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -13,10 +13,10 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='root',
-    maintainer_email='root@todo.todo',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    maintainer='Merlin Ortner',
+    maintainer_email='ortnermerlin@gmail.com',
+    description='A ROS 2 package that subscribes to a command topic and exposes the received commands as a service interface, enabling network-accessible control of servo motors.',
+    license='MIT',
     tests_require=['pytest'],
     entry_points={
     'console_scripts': [
