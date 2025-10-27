@@ -8,7 +8,6 @@ Dieses Repository enthält einen ROS 2–Knoten, der Servo-Befehle von einem T
 
 ## Inhalt
 
-* [`servo_helpers/servo_relay_node.py`](#servo_helpersservo_relay_nodepy)
 * [Funktionsweise](#funktionsweise)
 * [Installation](#installation)
 * [Parameter](#parameter)
